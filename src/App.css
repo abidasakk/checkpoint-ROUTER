@@ -1,0 +1,232 @@
+.App{
+  background-color:rgb(29, 18, 29);
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+  justify-content:start;
+  border: 1rem solid rgb(47, 3, 47);
+  width:84rem;
+
+ }
+
+ /* MENU MENU MENU MENU MENU MENU MENU MENUMENU MENU MENU MENUMENU MENU M */
+  /* MENU MENU MENU MENU MENU MENU MENU MENUMENU MENU MENU MENUMENU MENU M */
+ .entete{  
+   display:flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height:10rem;
+   margin-left:2rem;
+   margin-top: 2rem;
+ }
+.barremenu{
+  display:flex;
+   flex-direction:row;
+   justify-content:start;
+   align-items:center;
+   justify-content: space-between;
+   width:80rem;
+}
+.nommenu{ 
+  display:flex;
+   flex-direction:row; 
+   justify-content:space-between;
+   width:25rem; 
+}
+.serie,.box,.local{ color:white; font-size:20px;}
+.movies{ color:red; font-size:20px;}
+
+
+.box:hover{transition:1s; font-size:35px;cursor: pointer; color:yellow; }
+.serie:hover{transition:1s; font-size:35px; cursor: pointer;color:yellow; }
+.local:hover{transition:1s; font-size:35px; cursor: pointer;color:yellow; }
+.movies:hover{transition:1s; font-size:35px; cursor: pointer;color:yellow; }
+
+
+.netflix{width:7rem;}
+.profile{ border-radius:50rem;  margin-right:2rem;}
+.recherche{ 
+  display:flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content:start;
+  height:30px;
+ 
+}
+.barrerecherche{ border:1px solid rgb(197, 182, 235);  width:20rem;}
+.caserecherche{ background-color:rgb(29, 18, 29);
+                color:white; width:20rem;border:none; }
+.retour{color: white; width:15rem;}
+.retour:hover{transition:1s; font-size:15px; cursor: pointer;color:yellow; }
+
+ /* CORPS COPRS CORPS CORPSCORPS COPRS CORPS CORPSCORPS COPRS CORPS CORPS */
+/* CORPS COPRS CORPS CORPSCORPS COPRS CORPS CORPSCORPS COPRS CORPS CORPS */
+ 
+.corps{  
+background-image:url(component/corps.png);
+background-position:3rem;
+background-repeat:no-repeat;
+width:81rem;
+height:45rem;
+margin-top:5rem;
+margin-left:2rem;
+display: flex;
+flex-direction: column;
+justify-content: start;
+justify-content: space-between;
+border-bottom: 1px solid rgb(198, 203, 227);
+}
+.A{display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height:20rem;
+}
+.part1{ color:white; font-size:2rem; font-weight:bolder;}
+.part2{ color:white; font-size:15px;}
+.part3{ display: flex;
+  flex-direction: row;
+  justify-content: start;
+color:white;}
+
+  .witch{width:8rem; height:2rem;
+     background-color:red;
+     box-shadow:1px 2px black;
+     display: flex;
+     flex-direction: column;
+     justify-content:center;
+     align-items:center;
+     }
+     .witch:hover{transition:1s;cursor: pointer;color:yellow; background-color: black;
+    box-shadow: 2px 2px yellow; }
+  .all{width:6rem; height:2rem; 
+    margin-left:3rem;
+     border:1px solid black; 
+     display: flex;
+     flex-direction: column;
+     justify-content:center;
+     align-items:center;}
+  .all:hover{transition:1s;cursor: pointer;color:yellow;
+     background-color: black;box-shadow: 2px 4px yellow;  }
+
+     .B{color: white;}
+     /* BAS BAS BASBAS BAS BAS BAS BAS BAS BAS BAS BAS BASBAS BAS BASBAS   */
+    /* BAS BAS BASBAS BAS BAS BAS BAS BAS BAS BAS BAS BASBAS BAS BASBAS   */
+   .bas{  display: flex;
+         flex-direction: column;     
+   }
+   .cathegorie{display: flex;
+    flex-direction:row;
+     margin-left:2rem ;
+     margin-top:4rem;
+     justify-content: center;
+     align-items: center;
+     justify-content: space-between;
+     width:20rem;
+    }
+   .genre{color:rgb(176, 168, 168);}
+   
+   .actions,.series{color:white;}
+   .actions:hover{transition:1s; font-size:20px; cursor: pointer;color:yellow; }
+   .series:hover{transition:1s; font-size:20px; cursor: pointer;color:yellow; }
+  .movie{ display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:start;
+    width:80rem;
+  margin-left:2rem;
+  margin-top:1rem;}
+
+  .im{ height:25rem;
+       width:18rem;}
+  .im:hover{ 
+    transition:2s;  
+    height:28rem;
+    width:20rem;    
+    border:1px solid yellow;
+  }
+  .imm{ margin-left:2rem;}     
+.disposition{
+  display: flex;
+  flex-direction:column;
+  justify-content:start;
+  align-items: start;
+}
+.informations{
+  display: flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:start;
+  justify-content:space-between;
+}
+.detail{color: rgb(144, 138, 138); font-size:15px; margin-left:2rem; border: 1px solid yellow;}
+.details{margin-left:18rem;}
+
+.title{color: white; font-size:25px; margin-left:2rem; border: 1px solid yellow;}
+.titles{margin-left:16rem;}
+
+
+
+   @media(max-width:900px){
+      .App{ width:50rem;}
+      .barremenu{width:48rem;}
+      .serie,.movies,.box,.local{font-size:10px;}
+      .corps{width:47rem;}
+      .movie{width:47rem;}
+      .im{width:10rem; height:15rem;}
+      .im:hover{width:12rem; height:16rem; }
+   }
+
+   @media(max-width:600px){
+    .App{ width:33rem;}
+    .barremenu{width:32rem;}
+    .serie,.movies,.box,.local{font-size:5px;}
+    .serie:hover{font-size:15px;}
+    .movies:hover{font-size:15px;}
+    .box:hover{font-size:15px;}
+    .local:hover{font-size:15px;}
+    .corps{width:32rem;}
+    .movie{width:24rem;}
+    .im{width:5rem; height:7rem;}
+    .im:hover{width:6rem; height:8rem; }
+    .barrerecherche{ width:8rem;}
+    .caserecherche{  width:8rem; }
+ }
+
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,63 @@
+import React from "react";
+import { useState } from "react";
+function Bas(){
+const [titre,settitre]=useState([{        
+
+ 
+}])
+
+return(
+
+<>
+    <div className="bas">
+         <div className="cathegorie">
+         <div className="genre">Genre and type {titre} </div>
+         <div className="trais"></div>
+         <div className="actions">action</div>
+         <div className="series">serie</div>
+         </div>
+         <div className="movie">
+            <div className="film">
+            <img src="movie1.jpg" alt="" className="im" />
+            <div className="box">
+              <h1 className="title">film1</h1>
+              <h2 className="detail">2001</h2>
+            </div>
+            </div>
+            <div className="film">
+            <img src="movie2.jpg" alt="" className="im imm" />
+            <div className="box avant">
+              <h1 className="title">film2</h1>
+              <h2 className="detail">2010</h2>
+            </div> 
+            </div>
+            <div className="film">
+            <img src="movie3.jpg" alt="" className="im imm" /> 
+            <div className="box avant">
+              <h1 className="title">film3</h1>
+              <h2 className="detail">2002</h2>
+            </div>
+            </div>
+            <div className="film">
+            
+            <img src="movie4.jpg" alt="" className="im imm"/>
+            
+            <div className="box avant">
+              <h1 className="title">film4</h1>
+              <h2 className="detail">2014</h2>
+            </div>
+            </div>
+
+
+         </div>
+
+
+
+
+    </div>
+</>
+
+)
+
+}
+export default Bas;
