@@ -1,16 +1,12 @@
 import './App.css';
-import Menu  from "./component/Menu";
+import Contenue  from "./component/Contenue";
 import Corps from './component/Corps';
-import Bas from './component/Bas';
+import { useState } from 'react';
 function App() {
-
  
-
   return (
    <div className="App">
-      <Menu/>
-      <Corps/>
-      <Bas/>
+      <Contenue />
     </div>
   );
 }

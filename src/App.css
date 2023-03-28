@@ -5,12 +5,14 @@
   align-items:start;
   justify-content:start;
   border: 1rem solid rgb(47, 3, 47);
-  width:84rem;
+  width:85rem;
+  height:100rem;
 
  }
 
  /* MENU MENU MENU MENU MENU MENU MENU MENUMENU MENU MENU MENUMENU MENU M */
   /* MENU MENU MENU MENU MENU MENU MENU MENUMENU MENU MENU MENUMENU MENU M */
+
  .entete{  
    display:flex;
    flex-direction: column;
@@ -98,7 +100,7 @@ color:white;}
      }
      .witch:hover{transition:1s;cursor: pointer;color:yellow; background-color: black;
     box-shadow: 2px 2px yellow; }
-  .all{width:6rem; height:2rem; 
+  .all{width:7rem; height:2rem; 
     margin-left:3rem;
      border:1px solid black; 
      display: flex;
@@ -128,41 +130,33 @@ color:white;}
    .actions,.series{color:white;}
    .actions:hover{transition:1s; font-size:20px; cursor: pointer;color:yellow; }
    .series:hover{transition:1s; font-size:20px; cursor: pointer;color:yellow; }
-  .movie{ display: flex;
-    flex-direction:row;
-    align-items:center;
-    justify-content:start;
+  
+   .disposition{
+    height:29rem;
     width:80rem;
-  margin-left:2rem;
-  margin-top:1rem;}
-
-  .im{ height:25rem;
-       width:18rem;}
-  .im:hover{ 
-    transition:2s;  
-    height:28rem;
-    width:20rem;    
-    border:1px solid yellow;
+    margin-left:2rem;
+    display: flex;
+    flex-direction:row;
+    justify-content:start;
+    align-items: start;
+    justify-content: space-between;
+    margin-top:1rem;
+    color: beige;
   }
-  .imm{ margin-left:2rem;}     
-.disposition{
-  display: flex;
-  flex-direction:column;
-  justify-content:start;
-  align-items: start;
-}
-.informations{
-  display: flex;
-  flex-direction:row;
-  align-items:center;
-  justify-content:start;
-  justify-content:space-between;
-}
-.detail{color: rgb(144, 138, 138); font-size:15px; margin-left:2rem; border: 1px solid yellow;}
-.details{margin-left:18rem;}
+ .movie{
+    display: flex;
+    flex-direction:column;
+    align-items:start;
+    justify-content:start;
+    justify-content: space-between;
+    height:28rem;
+    
+  }
+.tailletexte{margin-right:5rem;margin-bottom:-1rem; font-size:1rem;}
+.tailleimage{ width:18rem; height:25rem;}
+.tailleimage:hover{transition:1s;width:19rem; height:26rem;border:2px solid yellow;cursor: pointer; }
 
-.title{color: white; font-size:25px; margin-left:2rem; border: 1px solid yellow;}
-.titles{margin-left:16rem;}
+
 
 
 

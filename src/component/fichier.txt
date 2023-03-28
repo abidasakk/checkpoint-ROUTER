@@ -54,6 +54,24 @@ return(
 
 
 
+
+ <div className="bas">
+         <div className="cathegorie">
+         <div className="genre">Genre and type</div>
+         <div className="trais"></div>
+         <div className="actions">action</div>
+         <div className="series">serie</div>
+         </div>
+         <div className="disposition" >           
+              <div className="movie">{news.map(elt=>{return elt.img })} </div>
+              <div className="movie">{news.map(elt=>{return elt.titre })} </div>
+              <div className="movie" >{news.map(elt=>{return elt.detail })} </div>
+         </div>
+    </div>
+
+
+
+
     </div>
 </>
 
